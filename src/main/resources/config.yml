@@ -1,0 +1,7 @@
+gradients:
+  YellowGreen: "<gradient:#FFFF00:#00FF00>"
+  RedBlue: "<gradient:#FF0000:#0000FF>"
+
+#default gradient
+#pre sure i hardcoded this somewhere else but ill make this configurable soon
+gradientPrefix: "<gradient:#a5f4ff:#85e7ff:#64daff:#44cdff:#45c2fb:#67b7f2:#89acea>"

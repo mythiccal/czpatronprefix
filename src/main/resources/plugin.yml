@@ -1,0 +1,20 @@
+name: CZPatronPrefix
+version: 1.0
+main: mythiccal.uk.czpatronprefix.CZPatronPrefixPlugin
+author: mythiccal
+api-version: 1.20
+depend: [PlaceholderAPI]
+commands:
+  czpatronprefix:
+    description: CZPatronPrefix command
+    aliases: [patronprefix]
+    usage: /<command> <reload|selectgradient|resetgradient>
+    permission: czpatronprefix.use
+    tab-completer: com.czpatronprefix.CommandManager
+permissions:
+  czpatronprefix.use:
+    description: Allows the use of CZPatronPrefix commands
+    default: op
+  czpatronprefix.reload:
+    description: Allows the user to reload the configuration
+    default: op
